@@ -16,25 +16,25 @@ const NavigationUp = () => {
 
             <nav>
                 <li>
-                    <a>
+                    <a href='#'>
                         <span><i className="fa-solid fa-caret-right"/></span>
                         About
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href='#'>
                         <span><i className="fa-solid fa-caret-right"/></span>
                         Experience
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href='#'>
                         <span><i className="fa-solid fa-caret-right"/></span>
                         Work
                     </a>
                 </li>
                 <li>
-                    <a>
+                    <a href='#'>
                         <span><i className="fa-solid fa-caret-right"/></span>
                         Contact
                     </a>
