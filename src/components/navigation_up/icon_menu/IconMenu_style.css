@@ -1,0 +1,42 @@
+.toggleMenu{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.toggleMenu span{
+    position: absolute;
+    width: 35px;
+    height: 4px;
+    background: var(--light-slate);
+    border-radius: var(--border-radius);
+    transition: 0.5s;
+}
+.toggleMenu span:nth-child(1){
+    transform: translateY(-15px);
+    width: 25px;
+    right: 5px;
+}
+.toggleMenu.active span:nth-child(1){
+    width: 35px;
+    transform: translateY(0px) rotate(45deg);
+}
+.toggleMenu span:nth-child(2){
+    transform: translateY(15px);
+    width: 25px;
+    right: 5px;
+}
+.toggleMenu.active span:nth-child(2){
+    width: 35px;
+    transform: translateY(0px) rotate(315deg);
+}
+.toggleMenu.active span:nth-child(3){
+    transform: translateX(60px);
+}
+
+
