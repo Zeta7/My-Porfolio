@@ -66,4 +66,10 @@
         filter: blur(0px);
         text-shadow: none;
     }
+    
+}
+@media screen and (max-width: 768px){
+    .container-Loading h2{
+        font-size: var(--fz-20);
+    }
 }
