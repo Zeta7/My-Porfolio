@@ -43,7 +43,7 @@ const NavigationUp = () => {
                     Resume
                 </button>
                 <div className='container-correo'>
-                    <p>edon.meza.o1197@outlook.es</p>
+                    <p>edson.meza.o1197@outlook.es</p>
                 </div>
             </nav>
         </div>
