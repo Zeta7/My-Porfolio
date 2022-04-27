@@ -8,14 +8,14 @@
   --navy: #0a192f;
   --light-navy: #112240;
   --background-dad: #233554;
-  --navy-shadow: rgba(2,12,27,0.7);
+  --navy-shadow: #020c1bb3;
   --dark-slate: #495670;
   --slate: #8892b0;
   --light-slate: #a8b2d1;
   --lightest-slate: #ccd6f6;
   --white: #e6f1ff;
   --yellow: #F7B60A;
-  --green-tint: rgba(100,255,218,0.1);
+  --green-tint: #64ffda1a;
   --pink: #f57dff;
   --blue: #57cbff;
   --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
@@ -43,4 +43,35 @@
 }
 body{
   background-color: var(--navy);
+}
+.container-body{
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+.container-info-body{
+  width: 1200px;
+  height: auto;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 1200px){
+  .container-info-body{
+    width: 900px;
+  }
+}
+@media screen and (max-width: 900px){
+  .container-info-body{
+    width: 600px;
+  }
+}
+@media screen and (max-width: 600px){
+  .container-info-body{
+    width: 80vw;
+  }
 }

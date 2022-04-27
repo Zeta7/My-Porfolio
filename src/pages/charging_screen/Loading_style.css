@@ -10,6 +10,7 @@
     color: #FFFF;
     font-size: 3em;
     display: flex;
+    font-size: var(--fz-heading);
 }
 .container-Loading h2 span{
     animation: animate 4s linear infinite;
