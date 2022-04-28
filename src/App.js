@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import { Loading, Home } from "./pages/";
+import { Loading, Home, About } from "./pages/";
 import { NavigationUp, SocialBlock, EmailBlock } from "./components";
 function App() {
   const [loading, setLoading] = useState(true);
@@ -19,6 +19,7 @@ function App() {
         <SocialBlock />
         <div className="container-info-body">
           <Home />
+          <About />
         </div>
       </div>
     );
