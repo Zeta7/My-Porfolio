@@ -3,10 +3,6 @@ import './Skills_style.css';
 import skills_json from './Skills.json';
 
 const Skills = () => {
-    /**
-     * <h4>{ks.data}</h4>
-        <p>{ks.name}</p>
-         */
     return (
         <div className="container-skills" id="skills">
             <div className="cont-sub-titu" data-aos="fade-right">
