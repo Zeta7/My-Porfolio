@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 import AOS from 'aos';
-import { About, Contact, Home, Loading, Skills, Work } from './Pages/';
+import { About, Contact, Home, Loading, Skills, Work } from './pages/';
 import { EmailBlock, Footer, NavigationUp, SocialBlock } from './components';
 
 function App() {
