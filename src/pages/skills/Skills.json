@@ -1,0 +1,37 @@
+[
+    {
+        "name": "javaScript",
+        "data": 80, 
+        "color": "#FFC75F"
+    },
+    {
+        "name": "HTML5",
+        "data": 85,
+        "color": "#fc5006"
+    },
+    {
+        "name": "CSS3",
+        "data": 85,
+        "color": "#02ffa6 "
+    },
+    {
+        "name": "ReactJs",
+        "data": 80,
+        "color": "#01bbff"
+    },
+    {
+        "name": "NodeJs",
+        "data": 85,
+        "color": "#77ff00"
+    },
+    {
+        "name": "Git",
+        "data": 85,
+        "color": "#926C00"
+    },
+    {
+        "name": "Postgres",
+        "data" : 60,
+        "color":"#845EC2"
+    }
+]

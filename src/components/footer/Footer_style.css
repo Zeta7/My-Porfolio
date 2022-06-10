@@ -1,0 +1,33 @@
+.container-footer{
+    margin-top: 100px;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-footer a{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--slate);
+
+}
+
+.container-footer h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.container-footer p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.container-footer a:hover{
+    color: var(--yellow);
+    
+}

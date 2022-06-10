@@ -1,29 +1,41 @@
-import { useState } from "react";
-import "./App.css";
-import { Loading, Home, About } from "./pages/";
-import { NavigationUp, SocialBlock, EmailBlock } from "./components";
+import { useState, useEffect } from 'react';
+import './App.css';
+import AOS from 'aos';
+import { About, Contact, Home, Loading, Skills, Work } from './Pages/';
+import { EmailBlock, Footer, NavigationUp, SocialBlock } from './components';
+
 function App() {
-  const [loading, setLoading] = useState(true);
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
 
-  setTimeout(() => {
-    setLoading(false);
-  }, 6000);
+    const [loading, setLoading] = useState(true);
+    const [language, setLanguage] = useState(true);
 
-  if (loading) {
-    return <Loading />;
-  } else {
-    return (
-      <div className="container-body">
-        <NavigationUp />
-        <EmailBlock />
-        <SocialBlock />
-        <div className="container-info-body">
-          <Home />
-          <About />
-        </div>
-      </div>
-    );
-  }
+    setTimeout(() => {
+        setLoading(false);
+    }, 6000);
+
+    if (loading) {
+        return <Loading />;
+    } else {
+        return (
+            <div className="container-body">
+                <NavigationUp language={language} setLanguage={setLanguage} />
+                <EmailBlock />
+                <SocialBlock />
+                <div className="container-info-body">
+                    <Home />
+                    <About />
+                    <Work />
+                    <Skills />
+                    <Contact />
+                    <Footer />
+                </div>
+            </div>
+        );
+    }
 }
 
 export default App;

@@ -34,6 +34,7 @@
   --nav-scroll-height: 70px;
   --tab-height: 42px;
   --tab-width: 120px;
+
   --easing: cubic-bezier(0.645, 0.045, 0.355, 1);
   --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 
@@ -43,10 +44,15 @@
   --ham-after-active: bottom 0.1s ease-out, transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 body {
+  
   background-color: var(--navy);
   overflow-x: hidden;
 }
+
 
 .container-body {
   width: 100vw;
