@@ -2,7 +2,7 @@ import React from 'react';
 import './Skills_style.css';
 import skills_json from './Skills.json';
 
-const Skills = () => {
+const Skills = ({ langJson }) => {
     return (
         <div className="container-skills" id="skills">
             <div className="cont-sub-titu" data-aos="fade-right">
@@ -10,7 +10,7 @@ const Skills = () => {
                     <span>
                         <i className="fa-solid fa-caret-right" />
                     </span>{' '}
-                    Skills
+                    {langJson[0].skill}
                 </h2>
             </div>
             <div

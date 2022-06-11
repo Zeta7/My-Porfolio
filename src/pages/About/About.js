@@ -2,7 +2,7 @@ import React from 'react';
 import './About_style.css';
 import img_edson from '../../img/edson_White.png';
 
-const About = () => {
+const About = ({ langJson }) => {
     return (
         <div className="container-about-dad" id="about">
             <div className="cont-title-about" data-aos="fade-right">
@@ -10,7 +10,7 @@ const About = () => {
                     <span>
                         <i className="fa-solid fa-caret-right" />
                     </span>{' '}
-                    About Me
+                    {langJson[0].about.h2}
                 </h2>
             </div>
             <div
@@ -20,48 +20,43 @@ const About = () => {
             >
                 <div className="cont-about-text">
                     <p>
-                        Hello! My name is Edson Meza. I love developing
-                        applications that live on the internet.
+                        {langJson[0].about.p1}
                         <br />
-                        My interest in web development started in 2021, when I
-                        decided to enter the world of programming.
+                        {langJson[0].about.p2}
                         <br />
                         <br />
-                        My main focus these days is to create accessible,
-                        exceptional and inclusive products for a variety of
-                        clients.
+                        {langJson[0].about.p3}
                         <br />
                         <br />
-                        Here are some technologies I've been working on
-                        recently:
+                        {langJson[0].about.p4}
                     </p>
                     <div className="cont-list-technologies">
                         <ul>
                             <li>
                                 <i className="fa-solid fa-check" />
-                                JavaScript (ES6+)
+                                {langJson[0].about.ul.li_1}
                             </li>
                             <li>
                                 <i className="fa-solid fa-check" />
-                                HTML 5
+                                {langJson[0].about.ul.li_2}
                             </li>
                             <li>
                                 <i className="fa-solid fa-check" />
-                                CSS 3
+                                {langJson[0].about.ul.li_3}
                             </li>
                         </ul>
                         <ul>
                             <li>
                                 <i className="fa-solid fa-check" />
-                                React.js
+                                {langJson[0].about.ul.li_4}
                             </li>
                             <li>
                                 <i className="fa-solid fa-check" />
-                                Node.js
+                                {langJson[0].about.ul.li_5}
                             </li>
                             <li>
                                 <i className="fa-solid fa-check" />
-                                PostgreSQL
+                                {langJson[0].about.ul.li_6}
                             </li>
                         </ul>
                     </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact_style.css';
 
-const Contact = () => {
+const Contact = ({ langJson }) => {
     return (
         <div
             className="container-contact"
@@ -10,14 +10,13 @@ const Contact = () => {
             data-aos-anchor-placement="top-center"
         >
             <div className="cont-sub-t" data-aos="fade-left">
-                <h2>Get In Touch</h2>
+                <h2>{langJson[0].contact.h2}</h2>
             </div>
             <div className="cont-contact">
-                <p>
-                    My inbox is always open. Whether you have a question or need
-                    my help.
-                </p>
-                <a href="mailto:edson.meza.o1197@outlook.es">Say hello</a>
+                <p>{langJson[0].contact.p}</p>
+                <a href="mailto:edson.meza.o1197@outlook.es">
+                    {langJson[0].contact.button}
+                </a>
             </div>
         </div>
     );

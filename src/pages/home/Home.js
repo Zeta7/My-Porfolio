@@ -1,7 +1,8 @@
 import React from 'react';
 import './Home_style.css';
 
-const Home = () => {
+const Home = ({ langJson }) => {
+    console.log(langJson);
     return (
         <div
             className="container-home"
@@ -10,18 +11,17 @@ const Home = () => {
             data-aos-anchor-placement="top-center"
         >
             <span className="un">
-                <p>Hi, my name is</p>
+                <p>{langJson[0].home.p}</p>
             </span>
-            <h2 className="h2-1">Edson Meza</h2>
-            <h2 className="h2-2">Web application development.</h2>
+            <h2 className="h2-1">{langJson[0].home.h2_1}</h2>
+            <h2 className="h2-2">{langJson[0].home.h2_2}</h2>
             <div className="parf">
                 <p>
-                    I'm a systems engineer specializes in creating (and
-                    occasionally designing) exceptional{' '}
-                    <span>web applications</span>.
+                    {langJson[0].home.parrafo.p}{' '}
+                    <span>{langJson[0].home.parrafo.span}</span>.
                 </p>
             </div>
-            <button>Contact me !</button>
+            <button>{langJson[0].home.button}</button>
         </div>
     );
 };

@@ -4,7 +4,7 @@ import e_commerce from '../../img/works_img/ecommerce.png';
 import pokedex from '../../img/works_img/poke.png';
 import facebook from '../../img/works_img/clon_f.png';
 
-const Work = () => {
+const Work = ({ langJson }) => {
     return (
         <>
             <div className="container-work" id="work">
@@ -13,7 +13,7 @@ const Work = () => {
                         <span>
                             <i className="fa-solid fa-caret-right" />
                         </span>{' '}
-                        Some Things I’ve Built
+                        {langJson[0].work.h2}
                     </h2>
                 </div>
                 <div
@@ -30,23 +30,16 @@ const Work = () => {
                         <img src={e_commerce} alt="E-commerce" />
                     </a>
                     <div className="data-img">
-                        <p className="text">Featured Project</p>
-                        <h4>E-Commerce</h4>
+                        <p className="text">{langJson[0].work.p}</p>
+                        <h4>{langJson[0].work.div_1.h4}</h4>
                         <div className="info-img">
-                            {/**
-                         Aplicacion web para tiendas virtuales, con la funcionalidad registros de usuarios, resgistros y promocion de productos para la clientela.
-                         */}
-                            <p>
-                                Web application for virtual stores, with user
-                                registration functionality, registration and
-                                promotion of products for customers.
-                            </p>
+                            <p>{langJson[0].work.div_1.p}</p>
                         </div>
                         <div className="info-tecnologis">
-                            <p>React</p>
-                            <p>Node</p>
-                            <p>Postgres</p>
-                            <p>Git</p>
+                            <p>{langJson[0].work.div_1.tecnologis._1}</p>
+                            <p>{langJson[0].work.div_1.tecnologis._2}</p>
+                            <p>{langJson[0].work.div_1.tecnologis._3}</p>
+                            <p>{langJson[0].work.div_1.tecnologis._4}</p>
                         </div>
                         <div className="cont-icons-link">
                             <a

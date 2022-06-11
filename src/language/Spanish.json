@@ -1,0 +1,80 @@
+[
+    {
+        "nmenu":{
+            "nav":{
+                "li_1": "Sobre", 
+                "li_2": "Habilidades", 
+                "li_3": "Trabajos", 
+                "li_4": "Contacto"
+            }, 
+            "button": "Curriculum", 
+            "p": "edson.meza.o1197@outlook.es"
+        } ,
+        "home":{
+            "p":"Hola, mi nombre es",
+            "h2_1": "Edson Meza",
+            "h2_2": "Desarrollador de aplicaciones web.",
+            "parrafo": {
+                "p": "Soy un ingeniero de sistemas especializado en crear (y ocasionalmente diseño) excepcionales",
+                "span": "aplicaciones web"
+            },
+            "button": "Contáctame !"
+        },
+        "about":{
+            "h2": "Sobre mí",
+            "p1": "¡Hola! Mi nombre es Edson Meza. Me encanta desarrollar aplicaciones que viven en Internet.",
+            "p2": "Mi interés en el desarrollo web comenzó en el 2021, cuando decidí ingresar al mundo de la programación.",
+            "p3": "Mi enfoque principal en estos días es crear contenido accesible , productos excepcionales e inclusivos para una variedad de clientes.",
+            "p4": "Estas son algunas tecnologías en las que he estado trabajando recientemente:",
+            "ul":{
+                "li_1": "JavaScript (ES6+)",
+                "li_2": "HTML 5",
+                "li_3": "CSS 3",
+                "li_4": "React.js",
+                "li_5": "Node.js",
+                "li_6": "PostgreSQL"
+            }
+        },
+        "work":{
+            "h2":"Algunas cosas que he construido",
+            "p": "Proyecto destacado",
+            "div_1":{
+                "h4": "E-Commerce",
+                "p": "Aplicación web para tiendas virtuales, con funcionalidad de registro de usuarios, registro y promoción de productos para clientes.",
+                "tecnologis": {
+                    "_1": "React",
+                    "_2": "Node", 
+                    "_3": "Postgres",
+                    "_4": "git"
+                }
+            },
+            "div_2":{
+                "h4": "Pokedex",
+                "p": "Pagina web que busca un Pokémon por su nombre o usando su número de Pokédex Nacional.",
+                "tecnologis": {
+                    "_1": "React",
+                    "_2": "Css", 
+                    "_3": "Npm",
+                    "_4": "git"
+                }
+            },
+            "div_3":{
+                "h4": "Post - clon facebook",
+                "p": "Aplicación web que puede registrar a un usuario y publicar una Historias, imagenes  y hacer comentarios en las publicaciones de otros usuarios.",
+                "tecnologis": {
+                    "_1": "React",
+                    "_2": "Node", 
+                    "_3": "Postgres",
+                    "_4": "git"
+                }
+            }
+        }, 
+        "skill":"Habilidades",
+        "contact": {
+            "h2": "Ponerse en contacto",
+            "p": "Mi bandeja de entrada siempre está abierta. Ya sea que tengas una pregunta o necesites mi ayuda.",
+            "button": "Di hola"
+        }, 
+        "footer": "Diseñado y construido por Edson Meza"
+    }
+]
