@@ -155,6 +155,7 @@ const Work = () => {
                             <a
                                 href="https://jade-lamington-de7d7b.netlify.app/#/"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 <i className="fa-solid fa-arrow-up-right-from-square" />
                             </a>
