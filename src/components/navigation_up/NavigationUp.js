@@ -10,8 +10,20 @@ const NavigationUp = ({ language, setLanguage, langJson }) => {
         e.preventDefault();
         setLanguage(!language);
     };
+
+    //al  hacer scroll aparece y desaparece el menu
+    let ubicacioPrincipal = window.pageYOffset;
+    window.onscroll = function () {
+        let Desplazamiento = window.pageYOffset;
+        if (ubicacioPrincipal >= Desplazamiento) {
+            document.getElementById('nav-principal').style.top = '0';
+        } else {
+            document.getElementById('nav-principal').style.top = '-100px';
+        }
+        ubicacioPrincipal = Desplazamiento;
+    };
     return (
-        <div className="container-navigationUp">
+        <div className="container-navigationUp" id="nav-principal">
             <Logo />
 
             <input type="checkbox" id="check" />
@@ -29,7 +41,7 @@ const NavigationUp = ({ language, setLanguage, langJson }) => {
             </div>
             <nav>
                 <li>
-                    <a href="#About">
+                    <a href="#about">
                         <span>
                             <i className="fa-solid fa-caret-right" />
                         </span>
@@ -37,7 +49,7 @@ const NavigationUp = ({ language, setLanguage, langJson }) => {
                     </a>
                 </li>
                 <li>
-                    <a href="#Experience">
+                    <a href="#skills">
                         <span>
                             <i className="fa-solid fa-caret-right" />
                         </span>
@@ -45,7 +57,7 @@ const NavigationUp = ({ language, setLanguage, langJson }) => {
                     </a>
                 </li>
                 <li>
-                    <a href="#Work">
+                    <a href="#work">
                         <span>
                             <i className="fa-solid fa-caret-right" />
                         </span>
@@ -53,7 +65,7 @@ const NavigationUp = ({ language, setLanguage, langJson }) => {
                     </a>
                 </li>
                 <li>
-                    <a href="#Contact">
+                    <a href="#contact">
                         <span>
                             <i className="fa-solid fa-caret-right" />
                         </span>

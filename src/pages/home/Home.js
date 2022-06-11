@@ -20,7 +20,9 @@ const Home = ({ langJson }) => {
                     <span>{langJson[0].home.parrafo.span}</span>.
                 </p>
             </div>
-            <button>{langJson[0].home.button}</button>
+            <a href="mailto:edson.meza.o1197@outlook.es" className="button">
+                {langJson[0].home.button}
+            </a>
         </div>
     );
 };

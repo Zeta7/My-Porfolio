@@ -10,6 +10,8 @@
     box-shadow: 0px 4px 4px var(--dark-navy);
     position: fixed;
     background-color: #0a192ff1;
+    top: 0;
+    transition: top 0.3s;
     z-index: 100;
 }
 

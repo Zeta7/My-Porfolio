@@ -3,6 +3,7 @@
     height: 550px;
     padding-top: 50px;
     padding-bottom: 50px;
+    scroll-margin-top: 100px;
 }
 
 .container-home span.un {
@@ -27,7 +28,7 @@
     width: 60%;
     height: 50px;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .container-home .parf p {
@@ -42,10 +43,10 @@
     font-size: var(--fz-x22);
 }
 
-.container-home button {
-    width: 250px;
-    height: 50px;
-    margin-top: 10px;
+.container-home .button {
+    padding: 15px 60px;
+    margin-top: 50px;
+    text-decoration: none;
     background: transparent;
     border: 1px solid var(--yellow);
     border-radius: var(--border-radius);
@@ -53,7 +54,7 @@
     font-size: var(--fz-16);
 }
 
-.container-home button:hover {
+.container-home .button:hover {
     background: var(--light-navy);
     cursor: pointer;
 }
@@ -95,7 +96,7 @@
         font-size: var(--fz-18);
     }
 
-    .container-home button {
+    .container-home .button {
         width: 70%;
     }
 }
