@@ -152,7 +152,10 @@ const Work = () => {
                             >
                                 <i className="fa-brands fa-github"></i>
                             </a>
-                            <a href="#" target="_blank">
+                            <a
+                                href="https://jade-lamington-de7d7b.netlify.app/#/"
+                                target="_blank"
+                            >
                                 <i className="fa-solid fa-arrow-up-right-from-square" />
                             </a>
                         </div>
