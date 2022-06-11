@@ -9,18 +9,21 @@ const EmailBlock = () => {
                     <a
                         href="https://www.facebook.com/edson.meza.3532/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <i className="fa-brands fa-facebook-f"></i>
                     </a>
                     <a
                         href="https://www.messenger.com/t/100013871988161/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <i className="fa-brands fa-facebook-messenger"></i>
                     </a>
                     <a
                         href="mailto:edson.meza.o1197@outlook.es"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <i className="fa-solid fa-envelope"></i>
                     </a>

@@ -9,24 +9,28 @@ const SocialBlock = () => {
                     <a
                         href="https://www.facebook.com/edson.meza.3532/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <i className="fa-brands fa-github"></i>
                     </a>
                     <a
                         href="https://www.facebook.com/edson.meza.3532/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <i className="fa-brands fa-linkedin-in"></i>
                     </a>
                     <a
                         href="https://www.facebook.com/edson.meza.3532/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <i className="fa-brands fa-twitter"></i>
                     </a>
                     <a
                         href="https://www.facebook.com/edson.meza.3532/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <i className="fa-brands fa-instagram"></i>
                     </a>

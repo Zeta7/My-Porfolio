@@ -25,6 +25,7 @@ const Work = () => {
                         className="link-img"
                         href="https://bucolic-kringle-65dcf2.netlify.app/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <img src={e_commerce} alt="E-commerce" />
                     </a>
@@ -51,12 +52,14 @@ const Work = () => {
                             <a
                                 href="https://github.com/Zeta7/E-comerce.git"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 <i className="fa-brands fa-github"></i>
                             </a>
                             <a
                                 href="https://bucolic-kringle-65dcf2.netlify.app/"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 <i className="fa-solid fa-arrow-up-right-from-square" />
                             </a>
@@ -73,6 +76,7 @@ const Work = () => {
                         className="link-img"
                         href="https://jade-lamington-de7d7b.netlify.app/#/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <img src={pokedex} alt="E-commerce" />
                     </a>
@@ -98,12 +102,14 @@ const Work = () => {
                             <a
                                 href="https://github.com/Zeta7/Pokedex.git"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 <i className="fa-brands fa-github"></i>
                             </a>
                             <a
                                 href="https://jade-lamington-de7d7b.netlify.app/#/"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 <i className="fa-solid fa-arrow-up-right-from-square" />
                             </a>
@@ -142,6 +148,7 @@ const Work = () => {
                             <a
                                 href="https://github.com/Zeta7/Academlo-Meals.git"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 <i className="fa-brands fa-github"></i>
                             </a>
