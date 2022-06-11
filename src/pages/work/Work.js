@@ -74,22 +74,16 @@ const Work = ({ langJson }) => {
                         <img src={pokedex} alt="E-commerce" />
                     </a>
                     <div className="data-img-2">
-                        <p className="text">Featured Project</p>
-                        <h4>Pokedex</h4>
+                        <p className="text">{langJson[0].work.p}</p>
+                        <h4>{langJson[0].work.div_2.h4}</h4>
                         <div className="info-img">
-                            {/**
-                         Pagina front que busca un Pokémon por su nombre o usando su número de la Pokédex Nacional.
-                         */}
-                            <p>
-                                Front page that searches for a Pokémon by name
-                                or using its National Pokédex number.
-                            </p>
+                            <p>{langJson[0].work.div_2.p}</p>
                         </div>
                         <div className="info-tecnologis">
-                            <p>React</p>
-                            <p>css</p>
-                            <p>npm</p>
-                            <p>Git</p>
+                            <p>{langJson[0].work.div_2.tecnologis._1}</p>
+                            <p>{langJson[0].work.div_2.tecnologis._2}</p>
+                            <p>{langJson[0].work.div_2.tecnologis._3}</p>
+                            <p>{langJson[0].work.div_2.tecnologis._4}</p>
                         </div>
                         <div className="cont-icons-link">
                             <a
@@ -119,23 +113,16 @@ const Work = ({ langJson }) => {
                         <img src={facebook} alt="E-commerce" />
                     </a>
                     <div className="data-img">
-                        <p className="text">Featured Project</p>
-                        <h4>Post - clon facebook</h4>
+                        <p className="text">{langJson[0].work.p}</p>
+                        <h4>{langJson[0].work.div_3.h4}</h4>
                         <div className="info-img">
-                            {/**
-                         Aplicacion we que puedes registrar un usuario y publicar un post y realizar comentarios de los post de otros usuarios.
-                         */}
-                            <p>
-                                We application that you can register a user and
-                                publish a post and make comments on the posts of
-                                other users.
-                            </p>
+                            <p>{langJson[0].work.div_3.p}</p>
                         </div>
                         <div className="info-tecnologis">
-                            <p>React</p>
-                            <p>Node</p>
-                            <p>Postgres</p>
-                            <p>Git</p>
+                            <p>{langJson[0].work.div_3.tecnologis._1}</p>
+                            <p>{langJson[0].work.div_3.tecnologis._2}</p>
+                            <p>{langJson[0].work.div_3.tecnologis._3}</p>
+                            <p>{langJson[0].work.div_3.tecnologis._4}</p>
                         </div>
                         <div className="cont-icons-link">
                             <a

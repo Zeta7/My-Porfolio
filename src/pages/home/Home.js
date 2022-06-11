@@ -2,7 +2,6 @@ import React from 'react';
 import './Home_style.css';
 
 const Home = ({ langJson }) => {
-    console.log(langJson);
     return (
         <div
             className="container-home"

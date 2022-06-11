@@ -14,7 +14,7 @@
 }
 
 .container-navigationUp nav {
-    width: 550px;
+    width: 600px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -32,7 +32,7 @@
     text-decoration: none;
     font-size: var(--fz-16);
     color: var(--light-slate);
-
+    display: flex;
 }
 
 .container-navigationUp nav li span {
@@ -46,18 +46,23 @@
     cursor: pointer;
 }
 
-.container-navigationUp nav button {
-    width: 100px;
+.container-navigationUp nav .button {
+    width: auto;
     height: 50%;
+    padding: 0px 30px;
     color: var(--light-slate);
     background-color: var(--font-mono);
     color: var(--yellow);
     margin-left: 15px;
     border: 1px solid var(--yellow);
     border-radius: var(--border-radius);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.container-navigationUp nav button:hover {
+.container-navigationUp nav .button:hover {
     background-color: var(--light-navy);
     cursor: pointer;
 }
@@ -85,7 +90,7 @@
 .container-language img{
     width: 35px;
     height: 35px;
-    margin-right: 40px;
+    
 }
 .container-language img:hover{
     cursor: pointer;
@@ -136,7 +141,7 @@
         display: none;
     }
 
-    .container-navigationUp nav button {
+    .container-navigationUp nav .button {
         width: 200px;
         height: 50px;
         color: var(--light-slate);
@@ -174,6 +179,12 @@
         position: absolute;
         padding: 0px 10px;
         background-color: var(--dark-navy);
+    }
+    .container-language img{
+        width: 35px;
+        height: 35px;
+        margin-right: 70px;
+        margin-top: 20px;
     }
 
 }

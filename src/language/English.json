@@ -1,6 +1,6 @@
 [
     {
-        "nmenu":{
+        "menu":{
             "nav":{
                 "li_1": "About", 
                 "li_2": "Skills", 
@@ -75,6 +75,7 @@
             "p": "My inbox is always open. Whether you have a question or need my help.",
             "button": "Say hello"
         },
-        "footer": "Designed and built by Edson Meza"
+        "footer": "Designed and built by Edson Meza",
+        "cv":"https://firebasestorage.googleapis.com/v0/b/my-portafolio-edfe1.appspot.com/o/Cv%2FCV%20-%20Edson%20Meza%20-%20english.pdf?alt=media&token=12f4e4c8-fdc2-4272-ae1c-0bde63d797e9"
     }
 ]

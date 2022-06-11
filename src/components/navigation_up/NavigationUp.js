@@ -5,7 +5,7 @@ import IconMenu from './icon_menu/IconMenu';
 import IconSpain from '../../img/s.png';
 import IconUsa from '../../img/eu.png';
 
-const NavigationUp = ({ language, setLanguage }) => {
+const NavigationUp = ({ language, setLanguage, langJson }) => {
     const ClickLang = (e) => {
         e.preventDefault();
         setLanguage(!language);
@@ -20,21 +20,20 @@ const NavigationUp = ({ language, setLanguage }) => {
                 <IconMenu />
             </label>
 
+            <div className="container-language">
+                <img
+                    src={language ? IconSpain : IconUsa}
+                    onClick={ClickLang}
+                    alt="logo language"
+                />
+            </div>
             <nav>
-                <div className="container-language">
-                    <img
-                        src={language ? IconSpain : IconUsa}
-                        onClick={ClickLang}
-                        alt="logo language"
-                    />
-                </div>
-
                 <li>
                     <a href="#About">
                         <span>
                             <i className="fa-solid fa-caret-right" />
                         </span>
-                        About
+                        {langJson[0].menu.nav.li_1}
                     </a>
                 </li>
                 <li>
@@ -42,7 +41,7 @@ const NavigationUp = ({ language, setLanguage }) => {
                         <span>
                             <i className="fa-solid fa-caret-right" />
                         </span>
-                        Skills
+                        {langJson[0].menu.nav.li_2}
                     </a>
                 </li>
                 <li>
@@ -50,7 +49,7 @@ const NavigationUp = ({ language, setLanguage }) => {
                         <span>
                             <i className="fa-solid fa-caret-right" />
                         </span>
-                        Work
+                        {langJson[0].menu.nav.li_3}
                     </a>
                 </li>
                 <li>
@@ -58,12 +57,19 @@ const NavigationUp = ({ language, setLanguage }) => {
                         <span>
                             <i className="fa-solid fa-caret-right" />
                         </span>
-                        Contact
+                        {langJson[0].menu.nav.li_4}
                     </a>
                 </li>
-                <button>Resume</button>
+                <a
+                    className="button"
+                    href={langJson[0].cv}
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    {langJson[0].menu.button}
+                </a>
                 <div className="container-correo">
-                    <p>edson.meza.o1197@outlook.es</p>
+                    <p>{langJson[0].menu.p}</p>
                 </div>
             </nav>
         </div>

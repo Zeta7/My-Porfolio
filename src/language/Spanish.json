@@ -1,6 +1,6 @@
 [
     {
-        "nmenu":{
+        "menu":{
             "nav":{
                 "li_1": "Sobre", 
                 "li_2": "Habilidades", 
@@ -75,6 +75,7 @@
             "p": "Mi bandeja de entrada siempre está abierta. Ya sea que tengas una pregunta o necesites mi ayuda.",
             "button": "Di hola"
         }, 
-        "footer": "Diseñado y construido por Edson Meza"
+        "footer": "Diseñado y construido por Edson Meza",
+        "cv":"https://firebasestorage.googleapis.com/v0/b/my-portafolio-edfe1.appspot.com/o/Cv%2FCV%20EdsoMeza.pdf?alt=media&token=27423c3a-6445-4b63-be78-628b12204fe2"
     }
 ]
