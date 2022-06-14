@@ -1,5 +1,4 @@
 import React from 'react';
-import { useEffect } from 'react';
 import './IconMenu_style.css';
 
 let ant_view = false;
