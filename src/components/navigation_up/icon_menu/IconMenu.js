@@ -2,15 +2,20 @@ import React from 'react';
 import { useEffect } from 'react';
 import './IconMenu_style.css';
 
+let ant_view = false;
+
 const IconMenu = ({ viewMenu, setViewMenu }) => {
     const clickMenu = () => {
         setViewMenu(!viewMenu);
     };
 
-    useEffect(() => {
+    if (viewMenu === ant_view) {
+        ant_view = viewMenu;
+    } else {
         let toggleMenu = document.querySelector('.toggleMenu');
         toggleMenu.classList.toggle('active');
-    }, [!viewMenu]);
+        ant_view = viewMenu;
+    }
 
     return (
         <div className="toggleMenu" onClick={clickMenu}>
