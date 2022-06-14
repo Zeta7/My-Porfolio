@@ -1,15 +1,19 @@
 import React from 'react';
+import { useEffect } from 'react';
 import './IconMenu_style.css';
 
-const IconMenu = () => {
+const IconMenu = ({ viewMenu, setViewMenu }) => {
+    const clickMenu = () => {
+        setViewMenu(!viewMenu);
+    };
 
-    const clickMenu = () =>{
-        let toggleMenu = document.querySelector(".toggleMenu");
-        toggleMenu.classList.toggle("active");
-    }
+    useEffect(() => {
+        let toggleMenu = document.querySelector('.toggleMenu');
+        toggleMenu.classList.toggle('active');
+    }, [viewMenu]);
 
     return (
-        <div  className='toggleMenu'  onClick={clickMenu}>
+        <div className="toggleMenu" onClick={clickMenu}>
             <span></span>
             <span></span>
             <span></span>
