@@ -11,9 +11,9 @@ const IconMenu = ({ viewMenu, setViewMenu }) => {
     if (viewMenu === ant_view) {
         ant_view = viewMenu;
     } else {
+        ant_view = viewMenu;
         let toggleMenu = document.querySelector('.toggleMenu');
         toggleMenu.classList.toggle('active');
-        ant_view = viewMenu;
     }
 
     return (
