@@ -10,7 +10,7 @@ const IconMenu = ({ viewMenu, setViewMenu }) => {
     useEffect(() => {
         let toggleMenu = document.querySelector('.toggleMenu');
         toggleMenu.classList.toggle('active');
-    }, [viewMenu]);
+    }, [!viewMenu]);
 
     return (
         <div className="toggleMenu" onClick={clickMenu}>
