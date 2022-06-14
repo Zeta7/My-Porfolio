@@ -8,11 +8,11 @@ import IconUsa from '../../img/eu.png';
 
 const NavigationUp = ({ language, setLanguage, langJson }) => {
     const Scr_width = window.screen.width;
-    let valor_bol = true;
+    let valor_bol;
     if (Scr_width <= 768) {
-        valor_bol = false;
-    } else {
         valor_bol = true;
+    } else {
+        valor_bol = false;
     }
     const [viewMenu, setViewMenu] = useState(valor_bol);
 
