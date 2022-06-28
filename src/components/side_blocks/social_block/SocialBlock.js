@@ -14,7 +14,7 @@ const SocialBlock = () => {
                         <i className="fa-brands fa-github"></i>
                     </a>
                     <a
-                        href="www.linkedin.com/in/edsonjoan"
+                        href="https://www.linkedin.com/in/edsonjoan"
                         target="_blank"
                         rel="noreferrer"
                     >
